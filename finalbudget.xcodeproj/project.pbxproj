@@ -14,6 +14,15 @@
 		A9DC152929FCAB570075F290 /* finalbudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC152829FCAB570075F290 /* finalbudgetTests.swift */; };
 		A9DC153329FCAB570075F290 /* finalbudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC153229FCAB570075F290 /* finalbudgetUITests.swift */; };
 		A9DC153529FCAB570075F290 /* finalbudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC153429FCAB570075F290 /* finalbudgetUITestsLaunchTests.swift */; };
+		A9DC154329FCABF70075F290 /* Expensefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154229FCABF70075F290 /* Expensefile.swift */; };
+		A9DC154529FCAC1B0075F290 /* Expensetype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154429FCAC1B0075F290 /* Expensetype.swift */; };
+		A9DC154729FCAC4A0075F290 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154629FCAC4A0075F290 /* AddView.swift */; };
+		A9DC154929FCACA40075F290 /* NewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154829FCACA40075F290 /* NewExpense.swift */; };
+		A9DC154B29FCACE60075F290 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154A29FCACE60075F290 /* Overview.swift */; };
+		A9DC154D29FCAD3D0075F290 /* Articleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154C29FCAD3D0075F290 /* Articleview.swift */; };
+		A9DC154F29FCAD690075F290 /* Chartsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC154E29FCAD690075F290 /* Chartsview.swift */; };
+		A9DC155129FCAFF90075F290 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC155029FCAFF90075F290 /* Extensions.swift */; };
+		A9DC155429FCB0C10075F290 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A9DC155329FCB0C10075F290 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,14 @@
 		A9DC152E29FCAB570075F290 /* finalbudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalbudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DC153229FCAB570075F290 /* finalbudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalbudgetUITests.swift; sourceTree = "<group>"; };
 		A9DC153429FCAB570075F290 /* finalbudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalbudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9DC154229FCABF70075F290 /* Expensefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expensefile.swift; sourceTree = "<group>"; };
+		A9DC154429FCAC1B0075F290 /* Expensetype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expensetype.swift; sourceTree = "<group>"; };
+		A9DC154629FCAC4A0075F290 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		A9DC154829FCACA40075F290 /* NewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpense.swift; sourceTree = "<group>"; };
+		A9DC154A29FCACE60075F290 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		A9DC154C29FCAD3D0075F290 /* Articleview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articleview.swift; sourceTree = "<group>"; };
+		A9DC154E29FCAD690075F290 /* Chartsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chartsview.swift; sourceTree = "<group>"; };
+		A9DC155029FCAFF90075F290 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DC155429FCB0C10075F290 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +112,12 @@
 		A9DC151629FCAB550075F290 /* finalbudget */ = {
 			isa = PBXGroup;
 			children = (
+				A9DC154129FCABCC0075F290 /* Views */,
 				A9DC151729FCAB550075F290 /* finalbudgetApp.swift */,
 				A9DC151929FCAB550075F290 /* ContentView.swift */,
 				A9DC151B29FCAB570075F290 /* Assets.xcassets */,
 				A9DC151D29FCAB570075F290 /* Preview Content */,
+				A9DC155029FCAFF90075F290 /* Extensions.swift */,
 			);
 			path = finalbudget;
 			sourceTree = "<group>";
@@ -127,6 +147,20 @@
 			path = finalbudgetUITests;
 			sourceTree = "<group>";
 		};
+		A9DC154129FCABCC0075F290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC154229FCABF70075F290 /* Expensefile.swift */,
+				A9DC154429FCAC1B0075F290 /* Expensetype.swift */,
+				A9DC154629FCAC4A0075F290 /* AddView.swift */,
+				A9DC154829FCACA40075F290 /* NewExpense.swift */,
+				A9DC154A29FCACE60075F290 /* Overview.swift */,
+				A9DC154C29FCAD3D0075F290 /* Articleview.swift */,
+				A9DC154E29FCAD690075F290 /* Chartsview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +177,9 @@
 			dependencies = (
 			);
 			name = finalbudget;
+			packageProductDependencies = (
+				A9DC155329FCB0C10075F290 /* SwiftUICharts */,
+			);
 			productName = finalbudget;
 			productReference = A9DC151429FCAB550075F290 /* finalbudget.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +252,9 @@
 				Base,
 			);
 			mainGroup = A9DC150B29FCAB550075F290;
+			packageReferences = (
+				A9DC155229FCB0C10075F290 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = A9DC151529FCAB550075F290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +298,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DC151A29FCAB550075F290 /* ContentView.swift in Sources */,
+				A9DC154329FCABF70075F290 /* Expensefile.swift in Sources */,
+				A9DC154F29FCAD690075F290 /* Chartsview.swift in Sources */,
+				A9DC154729FCAC4A0075F290 /* AddView.swift in Sources */,
+				A9DC154D29FCAD3D0075F290 /* Articleview.swift in Sources */,
+				A9DC155129FCAFF90075F290 /* Extensions.swift in Sources */,
+				A9DC154929FCACA40075F290 /* NewExpense.swift in Sources */,
+				A9DC154529FCAC1B0075F290 /* Expensetype.swift in Sources */,
 				A9DC151829FCAB550075F290 /* finalbudgetApp.swift in Sources */,
+				A9DC154B29FCACE60075F290 /* Overview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +465,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"finalbudget/Preview Content\"";
+				DEVELOPMENT_TEAM = LD74S3XKGV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Frugal manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +496,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"finalbudget/Preview Content\"";
+				DEVELOPMENT_TEAM = LD74S3XKGV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Frugal manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +631,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9DC155229FCB0C10075F290 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9DC155329FCB0C10075F290 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9DC155229FCB0C10075F290 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9DC150C29FCAB550075F290 /* Project object */;
 }
